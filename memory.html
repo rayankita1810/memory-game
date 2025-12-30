@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memory.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="board">
+
+    
+        <h2 id="play">Let’s Play a Memory Game!</h2>
+
+    
+        <div id="level"> 
+            <button class="difficultyButton" id="easybt" data-level="easy">Easy</button>
+            <button class="difficultyButton" id="mediumbt" data-level="medium">Medium</button>
+            <button class="difficultyButton" id="hardbt" data-level="hard">Hard</button>
+            
+        </div>
+        <div id="last">
+            <button class="bt" id="res">Reset</button>
+            <button class="bt" id="st">Start</button>
+            
+        </div>
+    
+   
+        <h2 id="sc">Score: 0</h2>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div> 
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    
+    <div id="timerContainer">
+        <div id="timer"></div>
+      </div> 
+      
+    <audio id="countdownSound" src="countdown_sound.mp3" preload="auto"></audio>
+    <audio id="winner" src="success.mp3" preload="auto"></audio>
+    <audio id="start" src="ping.mp3" preload="auto"></audio>
+    <audio id="ending" src="end.mp3" preload="auto"></audio>
+    <audio id="flip" src="flip.mp3" preload="auto"></audio>
+    <audio id="wrong" src="wrong.mp3" preload="auto"></audio>
+    <audio id="correct" src="correct.mp3" preload="auto"></audio>
+    
+    
+    </div>
+    <div id="gifContainer">
+        <div id="winnerGif" class="hidden"></div>
+      </div>
+    <script src="try.js"></script>
+</body>
+</html>
